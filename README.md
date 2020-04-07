@@ -1,4 +1,4 @@
-# govid19 - Worldometer COVID-19 scrapper
+# govid19 - Worldometer COVID-19 scraper
 
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gabrielmbmb/govid19)
 
