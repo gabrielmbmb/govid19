@@ -40,7 +40,7 @@ func WriteToCSV(countries []*Country) error {
 	}
 	defer file.Close()
 
-	fmt.Printf("Saving scrapped data in %s...\n", fn)
+	fmt.Printf("Saving scraped data in %s...\n", fn)
 	err = gocsv.MarshalFile(&countries, file)
 	if err != nil {
 		return err
